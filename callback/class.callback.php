@@ -13,8 +13,6 @@ defined('_VALID_CALL') or die('Direct Access is not allowed.');
 
 class callback_xt_pagseguro extends callback {
 
-    // doc https://pagseguro.uol.com.br/v2/guia-de-integracao/api-de-notificacoes.html
-
     const STATUS_ORDER_PAYMENT_RECEIVED = 23;
     const STATUS_ORDER_PAYMENT_CANCELED = 32;
 
@@ -22,9 +20,6 @@ class callback_xt_pagseguro extends callback {
 
     function process() {
         global $filter;
-
-
-        //	if (!is_array($_POST)) return;
 
         $this->data = array();
         foreach ($_POST as $key => $val) {
@@ -43,7 +38,6 @@ class callback_xt_pagseguro extends callback {
             $this->data[$key] = $filter->_filter($val);
         }
 
-        //VALIDA TRANSAÇÃO
         self::main();
     }
 
@@ -93,13 +87,7 @@ class callback_xt_pagseguro extends callback {
 
         try {
             $transaction = PagSeguroNotificationService::checkTransaction($credentials, $notificationCode);
-            // Do something with $transaction
-            //Retorna o objeto TransactionStatus, que vamos resgatar o valor do status
             $status = $transaction->getStatus();
-
-            /**
-             * Pegamos o código que passamos por referência para o pagseguro
-             */
             $idPedido = $transaction->getReference();
             
             if ($status->getValue() == 3) {
