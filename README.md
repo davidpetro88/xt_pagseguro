@@ -12,14 +12,14 @@ funcionalidades que o PagSeguro oferece na forma de APIs:
 
 
 Informações necessárias para configurar o plugin :
-1 - Pagseguro e-Mail Adress ( E-mail cadastrado no pagseguro )
-2 - Pagseguro Token ( Token do Pagseguro para integrações )
+- 1 - Pagseguro e-Mail Adress ( E-mail cadastrado no pagseguro )
+- 2 - Pagseguro Token ( Token do Pagseguro para integrações )
 
 
 ----
 OBSERVAÇÃO
 ---------
-1 - A notificação do pagseguro pode ser bloqueada pelo mod_security.
+- 1 - A notificação do pagseguro pode ser bloqueada pelo mod_security.
 
 
 [Dúvidas?]
