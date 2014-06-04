@@ -1,4 +1,4 @@
-Plugin de integração PagSeguro para xt-commerce
+Plugin de integração PagSeguro para xt-commerce V 1.0
 ==============================================
 ---
 Descrição
