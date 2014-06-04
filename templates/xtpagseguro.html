@@ -1,0 +1,44 @@
+{if $mobile_active and $smarty.session.isMobile neq 'true'}
+
+<div id="default_credit_card_method" style="min-height:40px;">
+    <div class="box box-white box-hover">
+        <div class="payment">
+            <p class="bold" style="min-height:30px;">
+                <span style="display:inline-block;width: 25px;"> 
+                    <input type="radio" name="selected_payment" value="xt_pagseguro" />
+                </span> Pagseguro  
+                <span class="float-right">
+                    <img src="plugins/xt_pagseguro/images/logo_pagseguro.png" alt="Pagseguro">
+                </span>	</p>
+        </div>
+    </div>
+</div>
+
+{else}
+
+<li data-theme="c" data-role="divider" class="ui-li ui-li-static ui-btn-up-c ui-corner-top">
+    Pagseguro
+</li>
+<li data-theme="c" class="ui-li ui-li-static ui-btn-up-c ui-corner-bottom ui-li-last">
+    <div data-role="controlgroup" class="ui-corner-all ui-controlgroup ui-controlgroup-vertical">
+        <div class="ui-controlgroup-controls">
+            <div class="ui-radio">
+                <label data-corners="true" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-icon="radio-off" data-theme="b" class="ui-btn ui-btn-icon-left ui-radio-off ui-corner-top ui-corner-bottom ui-controlgroup-last ui-btn-up-b">
+                    <span class="">
+                        <span class="ui-btn-text">
+                            <span style="float:left"> 
+                                <input type="radio" name="selected_payment" value="xt_pagseguro" />
+                            </span>
+                            <span class="ui-li-heading">
+                                <span style="float:left; border: 0; text-align: left;"><strong>Pagseguro</strong></span>
+                            </span>
+                        </span>
+                    </span>
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <div style="display: none;"><!-- placeholder for popupBasic --></div>
+</li>
+{/if}

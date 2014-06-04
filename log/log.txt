@@ -1,0 +1,374 @@
+<?php
+
+/* 
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+{2014/05/30 19:14:34} [Error] Invalid notification parameters. 
+{2014/05/30 19:22:39} [Error] Invalid notification parameters. 
+{2014/05/30 19:27:20} [Error] Invalid notification parameters. 
+{2014/05/30 19:28:02} [Error] Invalid notification parameters. 
+{2014/05/30 19:29:07} [Error] Invalid notification parameters. 
+{2014/05/30 19:29:09} [Error] Invalid notification parameters. 
+{2014/05/30 19:31:54} [Error] Invalid notification parameters. 
+{2014/05/30 20:40:58} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 16,
+  'SenderEmail' => 'david.abraao.petro@gmail.com',
+)) - begin 
+{2014/05/30 20:40:59} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 16,
+  'SenderEmail' => 'david.abraao.petro@gmail.com',
+)) - end {1}0386C4E6B7B70C1774192FB8CD4BA22E 
+{2014/05/30 20:44:39} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 16,
+  'SenderEmail' => 'david.abraao.petro@gmail.com',
+)) - begin 
+{2014/05/30 20:44:40} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 16,
+  'SenderEmail' => 'david.abraao.petro@gmail.com',
+)) - end {1}632D0769DCDC269774317F967CE3EC0E 
+{2014/05/30 20:45:09} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 16,
+  'SenderEmail' => 'david.abraao.petro@gmail.com',
+)) - begin 
+{2014/05/30 20:45:09} [Error] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 16,
+  'SenderEmail' => 'david.abraao.petro@gmail.com',
+)) - error [HTTP 400] - BAD_REQUEST 0 [11024] - Items invalid quantity. 
+{2014/05/30 20:49:00} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 16,
+  'SenderEmail' => 'david.abraao.petro@gmail.com',
+)) - begin 
+{2014/05/30 20:49:02} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 16,
+  'SenderEmail' => 'david.abraao.petro@gmail.com',
+)) - end {1}627550181010F54AA4AA2F96C84A3F2B 
+{2014/05/30 20:50:24} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 16,
+  'SenderEmail' => 'david.abraao.petro@gmail.com',
+)) - begin 
+{2014/05/30 20:50:25} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 16,
+  'SenderEmail' => 'david.abraao.petro@gmail.com',
+)) - end {1}A6545656EBEB2D7FF406FF83B80B6035 
+{2014/05/30 21:43:50} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 17,
+  'SenderEmail' => 'david.abraao.petro@gmail.com',
+)) - begin 
+{2014/05/30 21:43:52} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 17,
+  'SenderEmail' => 'david.abraao.petro@gmail.com',
+)) - end {1}9634C867858581644423AF908CEE5BE8 
+{2014/05/30 21:53:26} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 17,
+  'SenderEmail' => 'david.abraao.petro@gmail.com',
+)) - begin 
+{2014/05/30 21:53:27} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 17,
+  'SenderEmail' => 'david.abraao.petro@gmail.com',
+)) - end {1}5DB50C3AE8E84CB7745C5F9F2EDCE2BD 
+{2014/05/30 21:54:09} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 17,
+  'SenderEmail' => 'david.abraao.petro@gmail.com',
+)) - begin 
+{2014/05/30 21:54:10} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 17,
+  'SenderEmail' => 'david.abraao.petro@gmail.com',
+)) - end {1}04B781C15858642554624F83416232D3 
+{2014/05/30 21:54:52} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 17,
+  'SenderEmail' => 'david.abraao.petro@gmail.com',
+)) - begin 
+{2014/05/30 21:54:52} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 17,
+  'SenderEmail' => 'david.abraao.petro@gmail.com',
+)) - end {1}AB06FD6C6969162BB4C42F9E69E16591 
+{2014/05/30 21:56:23} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 17,
+  'SenderEmail' => 'david.abraao.petro@gmail.com',
+)) - begin 
+{2014/05/30 21:56:24} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 17,
+  'SenderEmail' => 'david.abraao.petro@gmail.com',
+)) - end {1}106BE2ABFAFAA7D774C66F9F019FBF47 
+{2014/05/30 22:01:18} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 17,
+  'SenderEmail' => 'david.abraao.petro@gmail.com',
+)) - begin 
+{2014/05/30 22:01:19} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 17,
+  'SenderEmail' => 'david.abraao.petro@gmail.com',
+)) - end {1}8EDFA7577272495554C57F94E52AF6CB 
+{2014/05/30 22:02:10} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 17,
+  'SenderEmail' => 'david.abraao.petro@gmail.com',
+)) - begin 
+{2014/05/30 22:02:11} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 17,
+  'SenderEmail' => 'david.abraao.petro@gmail.com',
+)) - end {1}5D5BE6901F1F788994F2EFAD4C029E9E 
+{2014/05/30 22:25:39} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 18,
+  'SenderEmail' => 'teste@sandbox.pagseguro.com.br',
+)) - begin 
+{2014/05/30 22:25:41} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 18,
+  'SenderEmail' => 'teste@sandbox.pagseguro.com.br',
+)) - end {1}DF9DAB844E4ED62AA4474FA42B94A998 
+{2014/05/30 22:31:55} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 18,
+  'SenderEmail' => 'teste@sandbox.pagseguro.com.br',
+)) - begin 
+{2014/05/30 22:31:57} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 18,
+  'SenderEmail' => 'teste@sandbox.pagseguro.com.br',
+)) - end {1}9C42492FF9F968C224981FA6DB48C8EC 
+{2014/05/30 22:33:11} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 18,
+  'SenderEmail' => 'teste@sandbox.pagseguro.com.br',
+)) - begin 
+{2014/05/30 22:33:13} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 18,
+  'SenderEmail' => 'teste@sandbox.pagseguro.com.br',
+)) - end {1}C4EEA389969671D334A23FAA0BDD0AE2 
+{2014/05/30 22:33:58} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 18,
+  'SenderEmail' => 'teste@sandbox.pagseguro.com.br',
+)) - begin 
+{2014/05/30 22:33:59} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 18,
+  'SenderEmail' => 'teste@sandbox.pagseguro.com.br',
+)) - end {1}7AE0D20EC8C810D664C3DF9A29BEEC1A 
+{2014/05/30 23:29:12} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 19,
+  'SenderEmail' => 'teste@sandbox.pagseguro.com.br',
+)) - begin 
+{2014/05/30 23:29:13} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 19,
+  'SenderEmail' => 'teste@sandbox.pagseguro.com.br',
+)) - end {1}0B4873759999D0E9942CCF8AF0E9FB2D 
+{2014/05/30 23:31:19} [Info] PagSeguroNotificationService.CheckTransaction(notificationCode=F3BB2B-D45DB95DB999-99943A0FB429-52CB0B) - begin 
+{2014/05/30 23:31:20} [Info] PagSeguroNotificationService.CheckTransaction(notificationCode=F3BB2B-D45DB95DB999-99943A0FB429-52CB0B) - end Transaction: array (
+  'code' => '7756EAFE-4768-4A18-AEE9-C4EE62C9AFCF',
+  'email' => 'teste@sandbox.pagseguro.com.br',
+  'date' => '2014-05-30T23:29:14.000-03:00',
+  'reference' => '19',
+  'status' => '3',
+  'itemsCount' => 1,
+)) 
+{2014/05/30 23:31:22} [Info] PagSeguroNotificationService.CheckTransaction(notificationCode=F3BB2B-D45DB95DB999-99943A0FB429-52CB0B) - begin 
+{2014/05/30 23:31:23} [Info] PagSeguroNotificationService.CheckTransaction(notificationCode=F3BB2B-D45DB95DB999-99943A0FB429-52CB0B) - end Transaction: array (
+  'code' => '7756EAFE-4768-4A18-AEE9-C4EE62C9AFCF',
+  'email' => 'teste@sandbox.pagseguro.com.br',
+  'date' => '2014-05-30T23:29:14.000-03:00',
+  'reference' => '19',
+  'status' => '3',
+  'itemsCount' => 1,
+)) 
+{2014/05/31 00:11:59} [Info] PagSeguroNotificationService.CheckTransaction(notificationCode=F3BB2B-D45DB95DB999-99943A0FB429-52CB0B) - begin 
+{2014/05/31 00:12:01} [Info] PagSeguroNotificationService.CheckTransaction(notificationCode=F3BB2B-D45DB95DB999-99943A0FB429-52CB0B) - end Transaction: array (
+  'code' => '7756EAFE-4768-4A18-AEE9-C4EE62C9AFCF',
+  'email' => 'teste@sandbox.pagseguro.com.br',
+  'date' => '2014-05-30T23:29:14.000-03:00',
+  'reference' => '19',
+  'status' => '3',
+  'itemsCount' => 1,
+)) 
+{2014/05/31 00:12:01} [Info] PagSeguroNotificationService.CheckTransaction(notificationCode=F3BB2B-D45DB95DB999-99943A0FB429-52CB0B) - begin 
+{2014/05/31 00:12:03} [Info] PagSeguroNotificationService.CheckTransaction(notificationCode=F3BB2B-D45DB95DB999-99943A0FB429-52CB0B) - end Transaction: array (
+  'code' => '7756EAFE-4768-4A18-AEE9-C4EE62C9AFCF',
+  'email' => 'teste@sandbox.pagseguro.com.br',
+  'date' => '2014-05-30T23:29:14.000-03:00',
+  'reference' => '19',
+  'status' => '3',
+  'itemsCount' => 1,
+)) 
+{2014/05/31 07:49:54} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 20,
+  'SenderEmail' => 'teste@sandbox.pagseguro.com.br',
+)) - begin 
+{2014/05/31 07:49:55} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 20,
+  'SenderEmail' => 'teste@sandbox.pagseguro.com.br',
+)) - end {1}72C10D80C4C4372FF47F9F8038C297CA 
+{2014/05/31 07:52:59} [Info] PagSeguroNotificationService.CheckTransaction(notificationCode=3F0171-A943C443C447-FBB4666F9D63-A5CB84) - begin 
+{2014/05/31 07:53:00} [Info] PagSeguroNotificationService.CheckTransaction(notificationCode=3F0171-A943C443C447-FBB4666F9D63-A5CB84) - end Transaction: array (
+  'code' => 'AC2FC299-8919-49F2-89F8-EEB0C3FAA4E3',
+  'email' => 'teste@sandbox.pagseguro.com.br',
+  'date' => '2014-05-31T07:49:56.000-03:00',
+  'reference' => '20',
+  'status' => '3',
+  'itemsCount' => 1,
+)) 
+{2014/05/31 07:53:01} [Info] PagSeguroNotificationService.CheckTransaction(notificationCode=3F0171-A943C443C447-FBB4666F9D63-A5CB84) - begin 
+{2014/05/31 07:53:03} [Info] PagSeguroNotificationService.CheckTransaction(notificationCode=3F0171-A943C443C447-FBB4666F9D63-A5CB84) - end Transaction: array (
+  'code' => 'AC2FC299-8919-49F2-89F8-EEB0C3FAA4E3',
+  'email' => 'teste@sandbox.pagseguro.com.br',
+  'date' => '2014-05-31T07:49:56.000-03:00',
+  'reference' => '20',
+  'status' => '3',
+  'itemsCount' => 1,
+)) 
+{2014/05/31 08:04:52} [Info] PagSeguroNotificationService.CheckTransaction(notificationCode=3F0171-A943C443C447-FBB4666F9D63-A5CB84) - begin 
+{2014/05/31 08:04:54} [Info] PagSeguroNotificationService.CheckTransaction(notificationCode=3F0171-A943C443C447-FBB4666F9D63-A5CB84) - end Transaction: array (
+  'code' => 'AC2FC299-8919-49F2-89F8-EEB0C3FAA4E3',
+  'email' => 'teste@sandbox.pagseguro.com.br',
+  'date' => '2014-05-31T07:49:56.000-03:00',
+  'reference' => '20',
+  'status' => '3',
+  'itemsCount' => 1,
+)) 
+{2014/05/31 18:05:59} [Info] PagSeguroNotificationService.CheckTransaction(notificationCode=3F0171-A943C443C447-FBB4666F9D63-A5CB84) - begin 
+{2014/05/31 18:06:00} [Info] PagSeguroNotificationService.CheckTransaction(notificationCode=3F0171-A943C443C447-FBB4666F9D63-A5CB84) - end Transaction: array (
+  'code' => 'AC2FC299-8919-49F2-89F8-EEB0C3FAA4E3',
+  'email' => 'teste@sandbox.pagseguro.com.br',
+  'date' => '2014-05-31T07:49:56.000-03:00',
+  'reference' => '20',
+  'status' => '3',
+  'itemsCount' => 1,
+)) 
+{2014/05/31 18:10:29} [Error] Invalid notification parameters. 
+{2014/05/31 18:10:53} [Info] PagSeguroNotificationService.CheckTransaction(notificationCode=3F0171-A943C443C447-FBB4666F9D63-A5CB84) - begin 
+{2014/05/31 18:10:55} [Info] PagSeguroNotificationService.CheckTransaction(notificationCode=3F0171-A943C443C447-FBB4666F9D63-A5CB84) - end Transaction: array (
+  'code' => 'AC2FC299-8919-49F2-89F8-EEB0C3FAA4E3',
+  'email' => 'teste@sandbox.pagseguro.com.br',
+  'date' => '2014-05-31T07:49:56.000-03:00',
+  'reference' => '20',
+  'status' => '3',
+  'itemsCount' => 1,
+)) 
+{2014/05/31 18:15:05} [Info] PagSeguroNotificationService.CheckTransaction(notificationCode=3F0171-A943C443C447-FBB4666F9D63-A5CB84) - begin 
+{2014/05/31 18:15:06} [Info] PagSeguroNotificationService.CheckTransaction(notificationCode=3F0171-A943C443C447-FBB4666F9D63-A5CB84) - end Transaction: array (
+  'code' => 'AC2FC299-8919-49F2-89F8-EEB0C3FAA4E3',
+  'email' => 'teste@sandbox.pagseguro.com.br',
+  'date' => '2014-05-31T07:49:56.000-03:00',
+  'reference' => '20',
+  'status' => '3',
+  'itemsCount' => 1,
+)) 
+{2014/05/31 18:23:13} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 21,
+  'SenderEmail' => 'teste@sandbox.pagseguro.com.br',
+)) - begin 
+{2014/05/31 18:23:15} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 21,
+  'SenderEmail' => 'teste@sandbox.pagseguro.com.br',
+)) - end {1}459C146EE1E1F2CEE41ADF9ACAC37EDE 
+{2014/05/31 18:28:30} [Info] PagSeguroNotificationService.CheckTransaction(notificationCode=167A6A-CF707E707ED9-599425AF8C24-FFB3FC) - begin 
+{2014/05/31 18:28:31} [Info] PagSeguroNotificationService.CheckTransaction(notificationCode=167A6A-CF707E707ED9-599425AF8C24-FFB3FC) - end Transaction: array (
+  'code' => '0332CC02-DF99-40EC-A7E4-F29C24D9DB14',
+  'email' => 'teste@sandbox.pagseguro.com.br',
+  'date' => '2014-05-31T18:23:15.000-03:00',
+  'reference' => '21',
+  'status' => '3',
+  'itemsCount' => 1,
+)) 
+{2014/06/02 08:25:10} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 22,
+  'SenderEmail' => 'teste@sandbox.pagseguro.com.br',
+)) - begin 
+{2014/06/02 08:25:11} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 22,
+  'SenderEmail' => 'teste@sandbox.pagseguro.com.br',
+)) - end {1}73C4B6C4D3D37C48847ECF8D57BC188A 
+{2014/06/02 08:28:28} [Info] PagSeguroNotificationService.CheckTransaction(notificationCode=738A12-04BEE3BEE34E-BBB4D21FB2F0-609427) - begin 
+{2014/06/02 08:28:30} [Info] PagSeguroNotificationService.CheckTransaction(notificationCode=738A12-04BEE3BEE34E-BBB4D21FB2F0-609427) - end Transaction: array (
+  'code' => 'BCB03511-B284-4AF1-BCE0-010DA3A06A74',
+  'email' => 'teste@sandbox.pagseguro.com.br',
+  'date' => '2014-06-02T08:25:12.000-03:00',
+  'reference' => '22',
+  'status' => '3',
+  'itemsCount' => 1,
+)) 
+{2014/06/02 10:47:00} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 23,
+  'SenderEmail' => 'teste@sandbox.pagseguro.com.br',
+)) - begin 
+{2014/06/02 10:47:01} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 23,
+  'SenderEmail' => 'teste@sandbox.pagseguro.com.br',
+)) - end {1}4F2B430FD4D42B5884DE9F820A6C9B6B 
+{2014/06/02 10:49:23} [Info] PagSeguroNotificationService.CheckTransaction(notificationCode=76BFFC-76DF1FDF1F9E-7EE4525F9B43-33EA94) - begin 
+{2014/06/02 10:49:25} [Info] PagSeguroNotificationService.CheckTransaction(notificationCode=76BFFC-76DF1FDF1F9E-7EE4525F9B43-33EA94) - end Transaction: array (
+  'code' => '6877771D-0EE1-406D-A447-3528CAEF5622',
+  'email' => 'teste@sandbox.pagseguro.com.br',
+  'date' => '2014-06-02T10:47:03.000-03:00',
+  'reference' => '23',
+  'status' => '3',
+  'itemsCount' => 1,
+)) 
+{2014/06/02 18:53:00} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 24,
+  'SenderEmail' => 'david.abraao.petro@gmail.com',
+)) - begin 
+{2014/06/02 18:53:03} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 24,
+  'SenderEmail' => 'david.abraao.petro@gmail.com',
+)) - end {1}44EDF2B5C4C4418CC4CEFFB67A0D1F41 
+{2014/06/02 18:56:45} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 24,
+  'SenderEmail' => 'david.abraao.petro@gmail.com',
+)) - begin 
+{2014/06/02 18:56:46} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 24,
+  'SenderEmail' => 'david.abraao.petro@gmail.com',
+)) - end {1}AEA8B4523F3FE68554936F942ADF80E6 
+{2014/06/02 19:07:41} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 25,
+  'SenderEmail' => 'teste@sandbox.pagseguro.com.br',
+)) - begin 
+{2014/06/02 19:07:42} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 26,
+  'SenderEmail' => 'teste@sandbox.pagseguro.com.br',
+)) - begin 
+{2014/06/02 19:07:44} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 25,
+  'SenderEmail' => 'teste@sandbox.pagseguro.com.br',
+)) - end {1}BAAE18D2F0F05E633465BFABEA375114 
+{2014/06/02 19:07:45} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 26,
+  'SenderEmail' => 'teste@sandbox.pagseguro.com.br',
+)) - end {1}BB5E1281A1A1C89994CD6F989F987A89 
+{2014/06/02 22:38:03} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 27,
+  'SenderEmail' => 'teste@sandbox.pagseguro.com.br',
+)) - begin 
+{2014/06/02 22:38:04} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 27,
+  'SenderEmail' => 'teste@sandbox.pagseguro.com.br',
+)) - end {1}4AD6C9710909FB1EE4BA1F83C338EFC0 
+{2014/06/03 15:29:27} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 28,
+  'SenderEmail' => 'teste@sandbox.pagseguro.com.br',
+)) - begin 
+{2014/06/03 15:29:29} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 28,
+  'SenderEmail' => 'teste@sandbox.pagseguro.com.br',
+)) - end {1}4592C4A2191913B554961F987926B0F0 
+{2014/06/03 15:50:29} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 29,
+  'SenderEmail' => 'teste@sandbox.pagseguro.com.br',
+)) - begin 
+{2014/06/03 15:50:31} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 29,
+  'SenderEmail' => 'teste@sandbox.pagseguro.com.br',
+)) - begin 
+{2014/06/03 15:50:32} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 29,
+  'SenderEmail' => 'teste@sandbox.pagseguro.com.br',
+)) - end {1}8C49A03CAEAE27444456EF9D85F3D1CC 
+{2014/06/03 15:50:33} [Info] PagSeguroPaymentService.Register(PagSeguroPaymentRequest: array (
+  'Reference' => 29,
+  'SenderEmail' => 'teste@sandbox.pagseguro.com.br',
+)) - end {1}8EBF23967070184EE40D0FBB259A4D45 
+{2014/06/03 17:38:55} [Info] PagSeguroNotificationService.CheckTransaction(notificationCode=C1BEA1-A8418041803A-1DD45E4FA805-6C78C7) - begin 
+{2014/06/03 17:38:56} [Info] PagSeguroNotificationService.CheckTransaction(notificationCode=C1BEA1-A8418041803A-1DD45E4FA805-6C78C7) - end Transaction: array (
+  'code' => '20AD4EB1-6DBE-4075-8C04-C734F4B95D84',
+  'email' => 'teste@sandbox.pagseguro.com.br',
+  'date' => '2014-06-03T15:29:33.000-03:00',
+  'reference' => '28',
+  'status' => '7',
+  'itemsCount' => 1,
+)) 

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xtcommerceplugin>
+    <title>Pagseguro</title>
+    <version>1.0.0</version>
+    <code>xt_pagseguro</code>
+    <url>http://www.xt-commerce.com</url>
+    <icon>logo_pagseguro.png</icon>
+    <type>payment</type>
+    <payment>
+        <payment_code>xt_pagseguro</payment_code>
+        <payment_dir>xt_pagseguro</payment_dir>
+        <payment_icon>logo_pagseguro.png</payment_icon>
+        <payment_tpl></payment_tpl>
+        <de>
+            <title>Pagseguro</title>
+            <description></description>
+        </de>
+        <en>
+            <title>Pagseguro</title>
+            <description></description>
+        </en>
+        <es>
+            <title>Pagseguro</title>
+            <description></description>
+        </es>
+    </payment>
+    <db_install><![CDATA[
+$db->Execute("INSERT INTO ".TABLE_PAYMENT_COST." (`payment_id`, `payment_geo_zone`, `payment_country_code`, `payment_type_value_from`, `payment_type_value_to`, `payment_price`,`payment_allowed`) VALUES(".$payment_id.", 24, '', 0, 10000.00, 0, 1);");
+$db->Execute("INSERT INTO ".TABLE_PAYMENT_COST." (`payment_id`, `payment_geo_zone`, `payment_country_code`, `payment_type_value_from`, `payment_type_value_to`, `payment_price`,`payment_allowed`) VALUES(".$payment_id.", 25, '', 0, 10000.00, 0, 1);");
+$db->Execute("INSERT INTO ".TABLE_PAYMENT_COST." (`payment_id`, `payment_geo_zone`, `payment_country_code`, `payment_type_value_from`, `payment_type_value_to`, `payment_price`,`payment_allowed`) VALUES(".$payment_id.", 26, '', 0, 10000.00, 0, 1);");
+$db->Execute("INSERT INTO ".TABLE_PAYMENT_COST." (`payment_id`, `payment_geo_zone`, `payment_country_code`, `payment_type_value_from`, `payment_type_value_to`, `payment_price`,`payment_allowed`) VALUES(".$payment_id.", 27, '', 0, 10000.00, 0, 1);");
+$db->Execute("INSERT INTO ".TABLE_PAYMENT_COST." (`payment_id`, `payment_geo_zone`, `payment_country_code`, `payment_type_value_from`, `payment_type_value_to`, `payment_price`,`payment_allowed`) VALUES(".$payment_id.", 28, '', 0, 10000.00, 0, 1);");
+$db->Execute("INSERT INTO ".TABLE_PAYMENT_COST." (`payment_id`, `payment_geo_zone`, `payment_country_code`, `payment_type_value_from`, `payment_type_value_to`, `payment_price`,`payment_allowed`) VALUES(".$payment_id.", 29, '', 0, 10000.00, 0, 1);");
+$db->Execute("INSERT INTO ".TABLE_PAYMENT_COST." (`payment_id`, `payment_geo_zone`, `payment_country_code`, `payment_type_value_from`, `payment_type_value_to`, `payment_price`,`payment_allowed`) VALUES(".$payment_id.", 30, '', 0, 10000.00, 0, 1);");
+$db->Execute("INSERT INTO ".TABLE_PAYMENT_COST." (`payment_id`, `payment_geo_zone`, `payment_country_code`, `payment_type_value_from`, `payment_type_value_to`, `payment_price`,`payment_allowed`) VALUES(".$payment_id.", 31, '', 0, 10000.00, 0, 1);");
+]]></db_install>
+    <configuration_payment>
+        <!-- 1.0.2 -->
+        <config>
+            <key>MERCHANT_MAIL</key>
+            <type>textfield</type>
+            <value>david.abraao.petro@gettrust.com.br</value>
+            <sort_order>1</sort_order>
+            <de>
+                <title>Pagseguro e-Mail Adresse</title>
+            </de>
+            <en>
+                <title>Pagseguro e-Mail Address</title>
+            </en>
+            <bp>
+                <title>Pagseguro e-Mail Address</title>
+            </bp>
+        </config>
+        <!-- 1.0.2 END -->
+        <config>
+            <key>MERCHANT_TOKEN</key>
+            <type>textfield</type>
+            <value>BFC57AAE39C04C18A70233DDEA259185</value>
+            <sort_order>1</sort_order>
+            <de>
+                <title>Pagseguro Token</title>
+            </de>
+            <en>
+                <title>Pagseguro Token</title>
+            </en>
+            <bp>
+                <title>Pagseguro Token</title>
+            </bp>
+        </config>
+
+        <config>
+            <key>PROCESSED</key>
+            <type>dropdown</type>
+            <sort_order>4</sort_order>
+            <url>status:order_status</url>
+            <de>
+                <title>Bestellstatus - Erfolgreich</title>
+            </de>
+            <en>
+                <title>Ordersstatus - Completed</title>
+            </en>
+            <bp>
+                <title>Ordersstatus - Completed</title>
+            </bp>
+        </config>
+        <config>
+            <key>CANCELED</key>
+            <type>dropdown</type>
+            <url>status:order_status</url>
+            <sort_order>4</sort_order>
+            <de>
+                <title>Bestellstatus - Abgelehnt</title>
+            </de>
+            <en>
+                <title>Ordersstatus - Canceled</title>
+            </en>
+            <bp>
+                <title>Ordersstatus - Canceled</title>
+            </bp>
+        </config>
+        <config>
+            <key>PENDING</key>
+            <type>dropdown</type>
+            <url>status:order_status</url>
+            <sort_order>4</sort_order>
+            <de>
+                <title>Bestellstatus - In Bearbeitung</title>
+            </de>
+            <en>
+                <title>Ordersstatus - Pending</title>
+            </en>
+            <bp>
+                <title>Ordersstatus - Pending</title>
+            </bp>
+        </config>
+
+    </configuration_payment>
+
+</xtcommerceplugin> 
