@@ -96,8 +96,6 @@ class xt_pagseguro {
 
 
         // put rest amount into shipping costs
-
-
         $shipping_costs = 0;
         // shipping
         foreach ($order->order_total_data as $key => $arr) {
