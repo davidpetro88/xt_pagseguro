@@ -1,34 +1,11 @@
 <?php
-//
-//ini_set('display_errors', 1);
-//ini_set('display_startup_erros', 1);
-//error_reporting(E_ALL);
-/*
-  #########################################################################
-  #                       xt:Commerce  4.1 Shopsoftware
-  # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  #
-  # Copyright 2007-2011 xt:Commerce International Ltd. All Rights Reserved.
-  # This file may not be redistributed in whole or significant part.
-  # Content of this file is Protected By International Copyright Laws.
-  #
-  # ~~~~~~ xt:Commerce  4.1 Shopsoftware IS NOT FREE SOFTWARE ~~~~~~~
-  #
-  # http://www.xt-commerce.com
-  #
-  # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  #
-  # @version 1
-  # @copyright xt:Commerce International Ltd., www.xt-commerce.com
-  #
-  # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  #
-  # xt:Commerce International Ltd., Kafkasou 9, Aglantzia, CY-2112 Nicosia
-  #
-  # office@xt-commerce.com
-  #
-  #########################################################################
+/**
+ * Created by David Petro
+ * User: David Petro
+ * Date: 04/06/2014
+ * (c) David Petro, david.abraao.petro@gmail.com
  */
+
 require_once _SRV_WEBROOT . _SRV_WEB_PLUGINS . "xt_pagseguro/PagSeguroLibrary/PagSeguroLibrary.php";
 
 

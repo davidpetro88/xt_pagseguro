@@ -1,11 +1,9 @@
 <?php
-
 /**
- * Created by JetBrains PhpStorm.
- * User: Mario Zanier
- * Date: 17.03.13
- * Time: 09:28
- * (c) Mario Zanier, mzanier@xt-commerce.com
+ * Created by David Petro
+ * User: David Petro
+ * Date: 04/06/2014
+ * (c) David Petro, david.abraao.petro@gmail.com
  */
 require_once _SRV_WEBROOT . _SRV_WEB_PLUGINS . "xt_pagseguro/PagSeguroLibrary/PagSeguroLibrary.php";
 include_once _SRV_WEBROOT . 'xtFramework/library/phpxml/xml.php';
