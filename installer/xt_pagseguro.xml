@@ -10,7 +10,7 @@
         <payment_code>xt_pagseguro</payment_code>
         <payment_dir>xt_pagseguro</payment_dir>
         <payment_icon>logo_pagseguro.png</payment_icon>
-        <payment_tpl></payment_tpl>
+        <payment_tpl>xtpagseguro.html</payment_tpl>
         <de>
             <title>Pagseguro</title>
             <description></description>
