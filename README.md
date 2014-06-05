@@ -34,6 +34,7 @@ Achou e corrigiu um bug ou tem alguma feature em mente e deseja contribuir?
 
 * Adicione sua feature ou correção de bug.
 
+link : https://github.com/davidpetro88/xt_pagseguro/
 
 ----
 PARCEIROS
