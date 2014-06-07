@@ -110,8 +110,6 @@ class xt_pagseguro {
         }
 
         // products & Total
-
-
         $data['redirectURL'] = $this->RETURN_URL;
         $data['notificationURL'] = $this->NOTIFY_URL;
 
@@ -135,17 +133,30 @@ class xt_pagseguro {
         $paymentRequest->setReference($data['reference']);
 
         // Sets shipping information for this payment request
-        $sedexCode = PagSeguroShippingType::getCodeByType('SEDEX');
-        $paymentRequest->setShippingType($sedexCode);
+        $paymentRequest->setShippingType(3);//frete 3
         $paymentRequest->setShippingAddress(
-                $data['address']['postalCode'], $data['address']['street'], '', '', '', $data['address']['city'], '', 'BRA'
+                $data['shipping']['address']['postalCode'], 
+                $data['shipping']['address']['street'], 
+                '', 
+                $data['shipping']['address']['complement'], 
+                '', 
+                $data['shipping']['address']['city'], 
+                '', 
+                'BRA'
         );
 
+        $paymentRequest->setShippingCost($data['shipping']['cost']);
+        
+        
         // Sets your customer information.
         $paymentRequest->setSender(
-                $data['sender']['name'], $data['sender']['email'], '', '', '', ''
+                $data['sender']['name'], 
+                $data['sender']['email'], 
+                '', 
+                '', 
+                '', 
+                ''
         );
-
 
         // Sets the url used by PagSeguro for redirect user after ends checkout process
         $paymentRequest->setRedirectUrl($data['redirectURL']);
@@ -157,7 +168,6 @@ class xt_pagseguro {
         $paymentRequest->addParameter('notificationURL', $data['notificationURL']);
 
         $credentials = new PagSeguroAccountCredentials(XT_PAGSEGURO_MERCHANT_MAIL, XT_PAGSEGURO_MERCHANT_TOKEN);
-
 
         // Register this payment request in PagSeguro, to obtain the payment URL for redirect your customer.
         $url = $paymentRequest->register($credentials);
