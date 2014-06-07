@@ -134,16 +134,20 @@ class xt_pagseguro {
 
         // Sets shipping information for this payment request
         $paymentRequest->setShippingType(3);//frete 3
-        $paymentRequest->setShippingAddress(
-                $data['shipping']['address']['postalCode'], 
-                $data['shipping']['address']['street'], 
-                '', 
-                $data['shipping']['address']['complement'], 
-                '', 
-                $data['shipping']['address']['city'], 
-                '', 
-                'BRA'
-        );
+        // Sets shipping information for this payment request
+        $paymentRequest->setShippingType(3);//frete 3
+	    if (strlen ($data['shipping']['address']['postalCode']) == 8) {
+        	$paymentRequest->setShippingAddress(
+        	        $data['shipping']['address']['postalCode'], 
+        	        $data['shipping']['address']['street'], 
+        	        '', 
+        	        $data['shipping']['address']['complement'], 
+        	        '', 
+        	        $data['shipping']['address']['city'], 
+        	        '', 
+        	        'BRA'
+        	);
+	    }
 
         $paymentRequest->setShippingCost($data['shipping']['cost']);
         
