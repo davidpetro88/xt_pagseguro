@@ -128,8 +128,7 @@ class xt_pagseguro {
             $paymentRequest->addItem($item['item']['id'], $item['item']['description'], $item['item']['quantity'], $item['item']['amount']);
         }
 
-        // Sets a reference code for this payment request, it is useful to identify this payment
-        // in future notifications.
+        // Sets a reference code for this payment request, it is useful to identify this payment in future notifications.
         $paymentRequest->setReference($data['reference']);
 
         // Sets shipping information for this payment request
